@@ -104,7 +104,7 @@ int Dequeue()
 
 	}
 	dequeued_data = array[front];
-	front = front-1;
+	front = front+1;
 	return dequeued_data;
 }
 
